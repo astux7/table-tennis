@@ -2,8 +2,8 @@ describe("Player", function() {
   var player;
 
   beforeEach(function() {
-    player = new Player();
-    p2 = new Player();
+    player = new Player("Asta", 1);
+    p2 = new Player("PC", 2);
 
     game = new Game(player, p2);
   });
