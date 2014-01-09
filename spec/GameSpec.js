@@ -14,7 +14,7 @@ describe("Game", function() {
   });
 
   it('resets after a player reaches 11', function() {
-    var times = 11;
+    var times = 12;
     while(times--) {
       game.player1.scorePoint();
     }
